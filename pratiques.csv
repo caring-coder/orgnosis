@@ -1,75 +1,76 @@
-La gestion des bugs connuss et à résoudre existe, est connue, partagée et pérennes ? (anomalies non bloquantes en prod ou avant-prod);
-Quel est le dégré de connaissance du produit de l'équipe ?;
-Le projet met-il à disposition les informations /  les documents nécessaires à la gestion des incidents ?;
-Les développeurs ont-ils connaissance du portail des développeurs ?
-La roadmap aplicative est-elle partagée avec les contributeurs projets ?
-Quel est le niveau de partage des objectifs et priorités sur le projet ?
-La résolution des bugs connus est-elle priorisée ?
-Les objectifs et la planification sont-il revus régulièrement en regard du contexte ?
-De quelle visibilité disposez-vous sur les charges de travail ?
-Les développeurs ont-il connaissance des Standards d'architecture de la structure ?
-Les développeurs sont-il familiarisés avec toute la base de code du projet ?
-Êtes vous en mesure de définir les termes suivants : Dette technique /  Refactoring / Code Rot / Règle du boyscout ?
-Est-ce qu'on trouve une branche 'master' ?
-Quel est le nombres de branches actives sur le serveur distant de référence ?
-Quelle est la durée de vie moyenne des branches en cours de développement sur le serveur distant de référence ?
-Est-ce que tous les développeurs utilisent l'outil de versionnage ?
-Existe-t'il des restrictions de réusinage (refactoring) sur le code l'application ?
-Quelles sont les pratiques en terme de revue de code ?
-Quelles sont les pratiques en terme de DDD (Domain Driven Design) ?
-Pratique-vous du pair/mob programming (montée en compétences de junior, partager des connaissances, remplacer des revues de code ou pratiquer le TDD) ?
-Existe-t'il un cadre défini pour les revues de code ?
-La résolution des bugs potentiels (rapport d'analyse) est-elle priorisée ?
-Les éléments de configurations sont-ils versionnés (code, tests, scripts, paramétrage, docs (DE, DI, ...)) ?
-Existe-t'il une convention de codage connue, partagée et appliquée par les développeurs ?
-Quel est le niveau de maîtrise de l'ouytil de build/packaging (maven, msbuild, gradle, ...) ?
-L'étape de compilation est-elle rapide ?
-Quel est l'usage fait des analyses statiques (Sonarqube) ?
-Existe-t'il un outil unique de packaging connu et partagé entre les membres de l'équipe ?
-Existe-t'il un serveur de build connu et partagé entre les membres de l'équipe ?
-Quel est l'usage fait de la plateforme d'intégration continue ?
-Les développeurs sont-ils sensibilisés à la pratique des tests automatisés ?
-Les développeurs sont-ils sensibilisés à la pratique de couverture de code ?
-L'application est évaluée au moins une fois par jour le serveur de build ?
-Quelle est la maturité de l'équipe concernant le TDD ?
-Quelle est la maturité de l'équipe concernant le BDD ?
-Sessions d'analyse statique sont-elle rapide ?
-Sessions de test automatisés sont-elles rapide ?
-Combien de temps prends le packaging ?
-Si je travaille avec un partenaire externe, est ce que les règles de collaboration sont partagées ?
-Est-ce que l'équipe de développement a accès à un profil utilisateur ?
-Quel est le niveau de l'environnement physique dédié aux contributeurs du projet ?
-Les développeurs ont-ils accès à un gestionnaire de dépendances de qualité, avec ou sans proxy et/ou miroirs ?
-Quel est le niveau de l'envionnment logiciel dédié aux contributeurs du projet ?
-Quel est le niveau du matériel dédié ayx contributeurs du projet ? Espace disque insuffisant/suffisant/confortable, Espace RAM insuffisant/suffisant/confortable, Puissance processeur insuffisant/suffisant/confortable, Taille et quantité des écrans insuffisant/suffisant/confortable ?
-Quel est le dégré d'accès documentaire technique ?
-Quel est le dégré de complexité du déploiement ?
-Quel est la fréquence de déploiement en production ?
-Quel est le dégré de confiance sur le rollback (retour arrière) ?
-Existe-t'il un leader technique dans l'équipe/projet/produit ?
-Quelle est la maturité concernant le monitoring du runtime ?
-Dans quelle mesure le travail inter-équipe est-il encouragé ?
-Quels sont les processus mis en place pour faciliter les échanges dev & ops ?
-Comment l'équipe entretient-elle son ninveau de savaoir-faire pendant le temps de travail ?
-Quel est le niveau d'échange entre les dev & les ops ?
-Le projet/ produit est-il conçu pour répondre à un besoin identifié ete sa valeur ajoutée est-elle mesurable ?
-Les hypothèses sur la pertinence du lancement de l'application/projet/produit ont-elle été verifiées avec des utilisateurs ?
-Le concept de Backlog Produit est-il appliqué ?
-Y'a t'il un rôle de Product Owner (PO) ou équivalent affecté au produit/application/projet ?
-La aleur métier est-elle une métrique de référence pour informaer les décisions prises par l'équipe ?
-L'équipe est-elle stable ?
-L'équipe conserve-t-elle une taille qui optimise la collaboration durant le cycle de vie de l'application/produit/projet ?
-L'équipe s'engage-t-elle sur sa capacité à produire de la valeur aux utilisateurs ? (capacité en Sprint Planning Scrum, WIP Limit en Kanban, ...)
-Quelle est le degré de confiance et/ou de transaparence dans l'équipe ?
-Les utilisateurs sont-ils intégrés dans une boucle de feedback afin de faire évoluer le produit ? (interviews, démos, ...)
-L'équipe suit-elle un principe d'incrémentalité/d'itération pour tester sa réalisation ?
-Comment est établi la mesure du succès de l'équipe ?
-Quel type de communication est mis en place pour rendre compte des avancées ?
-L'équipe délivre t'elle effectivement de la valeur métier à chaque itération ?
-Dans le cadre de son amélioration continue, l'équipe s'auto organise pour identifier, comprendre et supprimer les causes racines des incidents/imprévus ?
-Métier, IT et Prod participent à la création de la vision et sont alignes avec celle-ci
-Comment le budgetr alloué pour l'application/projet/produit est-il défini ?
-Comment est pensée la stratégie produit ?
-Gestion de la documentation applicative ?
-Gestion stratégie de test ?
-Gestion exigences non fonctionnelles ?
+id;question;lvl0;lvl1;lvl2;lvl3;lvl4
+01;La gestion des bugs connus et à résoudre existe, est connue, partagée et pérennes ? (anomalies non bloquantes en prod ou avant-prod);Pas de base de connaissances des bugs;les bugs connus sont list�s;les bugs connus sont qualifi�s, historis�s;les bugs connus sont qualifi�s, historis�s, et remont�s dans les supports de gouvernance;Les bugs connus sont qualifi�s, historis�s, document�s et centralis�s (et remont�s dans des supports de gouvernance)
+02;Quel est le dégré de connaissance du produit de l'équipe ?;;;;;
+03;Le projet met-il à disposition les informations /  les documents nécessaires à la gestion des incidents ?;;;;;
+04;Les développeurs ont-ils connaissance du portail des développeurs ?;;;;;
+05;La roadmap aplicative est-elle partagée avec les contributeurs projets ?;;;;;
+06;Quel est le niveau de partage des objectifs et priorités sur le projet ?;;;;;
+07;La résolution des bugs connus est-elle priorisée ?;;;;;
+08;Les objectifs et la planification sont-il revus régulièrement en regard du contexte ?;;;;;
+09;De quelle visibilité disposez-vous sur les charges de travail ?;;;;;
+10;Les développeurs ont-il connaissance des Standards d'architecture de la structure ?;;;;;
+11;Les développeurs sont-il familiarisés avec toute la base de code du projet ?;;;;;
+12;Êtes vous en mesure de définir les termes suivants : Dette technique /  Refactoring / Code Rot / Règle du boyscout ?;;;;;
+13;Est-ce qu'on trouve une branche 'master' ?;;;;;
+14;Quel est le nombres de branches actives sur le serveur distant de référence ?;;;;;
+15;Quelle est la durée de vie moyenne des branches en cours de développement sur le serveur distant de référence ?;;;;;
+16;Est-ce que tous les développeurs utilisent l'outil de versionnage ?;;;;;
+17;Existe-t'il des restrictions de réusinage (refactoring) sur le code l'application ?;;;;;
+18;Quelles sont les pratiques en terme de revue de code ?;;;;;
+19;Quelles sont les pratiques en terme de DDD (Domain Driven Design) ?;;;;;
+20;Pratique-vous du pair/mob programming (montée en compétences de junior, partager des connaissances, remplacer des revues de code ou pratiquer le TDD) ?;;;;;
+21;Existe-t'il un cadre défini pour les revues de code ?;;;;;
+22;La résolution des bugs potentiels (rapport d'analyse) est-elle priorisée ?;;;;;
+23;Les éléments de configurations sont-ils versionnés (code, tests, scripts, paramétrage, docs (DE, DI, ...)) ?;;;;;
+24;Existe-t'il une convention de codage connue, partagée et appliquée par les développeurs ?;;;;;
+25;Quel est le niveau de maîtrise de l'ouytil de build/packaging (maven, msbuild, gradle, ...) ?;;;;;
+26;L'étape de compilation est-elle rapide ?;;;;;
+27;Quel est l'usage fait des analyses statiques (Sonarqube) ?;;;;;
+28;Existe-t'il un outil unique de packaging connu et partagé entre les membres de l'équipe ?;;;;;
+29;Existe-t'il un serveur de build connu et partagé entre les membres de l'équipe ?;;;;;
+30;Quel est l'usage fait de la plateforme d'intégration continue ?;;;;;
+31;Les développeurs sont-ils sensibilisés à la pratique des tests automatisés ?;;;;;
+32;Les développeurs sont-ils sensibilisés à la pratique de couverture de code ?;;;;;
+33;L'application est évaluée au moins une fois par jour le serveur de build ?;;;;;
+34;Quelle est la maturité de l'équipe concernant le TDD ?;;;;;
+35;Quelle est la maturité de l'équipe concernant le BDD ?;;;;;
+36;Sessions d'analyse statique sont-elle rapide ?;;;;;
+37;Sessions de test automatisés sont-elles rapide ?;;;;;
+38;Combien de temps prends le packaging ?;;;;;
+39;Si je travaille avec un partenaire externe, est ce que les règles de collaboration sont partagées ?;;;;;
+40;Est-ce que l'équipe de développement a accès à un profil utilisateur ?;;;;;
+41;Quel est le niveau de l'environnement physique dédié aux contributeurs du projet ?;;;;;
+42;Les développeurs ont-ils accès à un gestionnaire de dépendances de qualité, avec ou sans proxy et/ou miroirs ?;;;;;
+43;Quel est le niveau de l'envionnment logiciel dédié aux contributeurs du projet ?;;;;;
+44;Quel est le niveau du matériel dédié ayx contributeurs du projet ? Espace disque insuffisant/suffisant/confortable, Espace RAM insuffisant/suffisant/confortable, Puissance processeur insuffisant/suffisant/confortable, Taille et quantité des écrans insuffisant/suffisant/confortable ?;;;;;
+45;Quel est le dégré d'accès documentaire technique ?;;;;;
+46;Quel est le dégré de complexité du déploiement ?;;;;;
+47;Quel est la fréquence de déploiement en production ?;;;;;
+48;Quel est le dégré de confiance sur le rollback (retour arrière) ?;;;;;
+49;Existe-t'il un leader technique dans l'équipe/projet/produit ?;;;;;
+50;Quelle est la maturité concernant le monitoring du runtime ?;;;;;
+51;Dans quelle mesure le travail inter-équipe est-il encouragé ?;;;;;
+52;Quels sont les processus mis en place pour faciliter les échanges dev & ops ?;;;;;
+53;Comment l'équipe entretient-elle son ninveau de savaoir-faire pendant le temps de travail ?;;;;;
+54;Quel est le niveau d'échange entre les dev & les ops ?;;;;;
+55;Le projet/ produit est-il conçu pour répondre à un besoin identifié ete sa valeur ajoutée est-elle mesurable ?;;;;;
+56;Les hypothèses sur la pertinence du lancement de l'application/projet/produit ont-elle été verifiées avec des utilisateurs ?;;;;;
+57;Le concept de Backlog Produit est-il appliqué ?;;;;;
+58;Y'a t'il un rôle de Product Owner (PO) ou équivalent affecté au produit/application/projet ?;;;;;
+59;La aleur métier est-elle une métrique de référence pour informaer les décisions prises par l'équipe ?;;;;;
+60;L'équipe est-elle stable ?;;;;;
+61;L'équipe conserve-t-elle une taille qui optimise la collaboration durant le cycle de vie de l'application/produit/projet ?;;;;;
+62;L'équipe s'engage-t-elle sur sa capacité à produire de la valeur aux utilisateurs ? (capacité en Sprint Planning Scrum, WIP Limit en Kanban, ...);;;;;
+63;Quelle est le degré de confiance et/ou de transaparence dans l'équipe ?;;;;;
+64;Les utilisateurs sont-ils intégrés dans une boucle de feedback afin de faire évoluer le produit ? (interviews, démos, ...);;;;;
+65;L'équipe suit-elle un principe d'incrémentalité/d'itération pour tester sa réalisation ?;;;;;
+66;Comment est établi la mesure du succès de l'équipe ?;;;;;
+67;Quel type de communication est mis en place pour rendre compte des avancées ?;;;;;
+68;L'équipe délivre t'elle effectivement de la valeur métier à chaque itération ?;;;;;
+69;Dans le cadre de son amélioration continue, l'équipe s'auto organise pour identifier, comprendre et supprimer les causes racines des incidents/imprévus ?;;;;;
+70;Métier, IT et Prod participent à la création de la vision et sont alignes avec celle-ci;;;;;
+71;Comment le budgetr alloué pour l'application/projet/produit est-il défini ?;;;;;
+72;Comment est pensée la stratégie produit ?;;;;;
+73;Gestion de la documentation applicative ?;;;;;
+74;Gestion stratégie de test ?;;;;;
+75;Gestion exigences non fonctionnelles ?;;;;;
