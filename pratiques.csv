@@ -40,7 +40,7 @@ id,question,lvl0,lvl1,lvl2,lvl3,lvl4,Phase,Sourcing,Produit,Devops,Périmètre
 39,"Si je travaille avec un partenaire externe, est ce que les règles de collaboration sont partagées ?",,,,,,,,,,
 40,Est-ce que l'équipe de développement a accès à un profil utilisateur ?,,,,,,,,,,
 41,Quel est le niveau de l'environnement physique dédié aux contributeurs du projet ?,,,,,,,,,,
-42,Les développeurs ont-ils accès à un gestionnaire de dépendances de qualité, avec ou sans proxy et/ou miroirs ?,,,,,,,,,,
+42,"Les développeurs ont-ils accès à un gestionnaire de dépendances de qualité, avec ou sans proxy et/ou miroirs ?",,,,,,,,,,
 43,Quel est le niveau de l'envionnment logiciel dédié aux contributeurs du projet ?,,,,,,,,,,
 44,Quel est le niveau du matériel dédié ayx contributeurs du projet ? Espace disque insuffisant/suffisant/confortable, Espace RAM insuffisant/suffisant/confortable, Puissance processeur insuffisant/suffisant/confortable, Taille et quantité des écrans insuffisant/suffisant/confortable ?,,,,,,,,,,
 45,Quel est le dégré d'accès documentaire technique ?,,,,,,,,,,
