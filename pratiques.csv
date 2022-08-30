@@ -18,7 +18,7 @@ id,question,lvl0,lvl1,lvl2,lvl3,lvl4,Phase,Sourcing,Produit,Devops,Périmètre
 17,Existe-t'il des restrictions de réusinage (refactoring) sur le code l'application ?,,,,,,,,,,
 18,Quelles sont les pratiques en terme de revue de code ?,,,,,,,,,,
 19,Quelles sont les pratiques en terme de DDD (Domain Driven Design) ?,,,,,,,,,,
-20,Pratique-vous du pair/mob programming (montée en compétences de junior, partager des connaissances, remplacer des revues de code ou pratiquer le TDD) ?,,,,,,,,,,
+20,"Pratique-vous du pair/mob programming (montée en compétences de junior, partager des connaissances, remplacer des revues de code ou pratiquer le TDD) ?",,,,,,,,,,
 21,Existe-t'il un cadre défini pour les revues de code ?,,,,,,,,,,
 22,La résolution des bugs potentiels (rapport d'analyse) est-elle priorisée ?,,,,,,,,,,
 23,Les éléments de configurations sont-ils versionnés (code, tests, scripts, paramétrage, docs (DE, DI, ...)) ?,,,,,,,,,,
