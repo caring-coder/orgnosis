@@ -1,77 +1,77 @@
-id;question;lvl0;lvl1;lvl2;lvl3;lvl4;Phase;Sourcing;Produit;Devops;Périmètre
-01;"La gestion des bugs connus et à résoudre existe, est connue, partagée et pérennes ? (anomalies non bloquantes en prod ou avant-prod)";Pas de base de connaissances des bugs;les bugs connus sont listés;"les bugs connus sont qualifiés, historisés";"les bugs connus sont qualifiés, historisés, et remontés dans les supports de gouvernance";"Les bugs connus sont qualifiés, historisés, documentés et centralisés (et remontés dans des supports de gouvernance)";Plan;Humain & Matériel;;Excellence Technique;Application, Produit, Projet
-02;Quel est le dégré de connaissance du produit de l'équipe ?;Le produit n'est pas vraiment compris pas l'équipe de développement, et pas de documentation sur le produit, sa raison d'être et ses fonctionnalités.;Seul le PO/RA peut faire ce genre de présentation OU une documentation technique du produit existe;Seul le CP/Tech  lead peuvent faire ce genre de présentation OU un manuel utilisateur existe;Tous les membres de l'équipe peuvent faire un elevator speech OU un élément de documentation détailée existe;Tous les membres de l'équipe peuvent faire un elevator speech ET un élément de documentation détailée existe;Plan;Pratiques Opérationnelles;Equipe de dév;Culture;Equipe de réalisation
-03;Le projet met-il à disposition les informations /  les documents nécessaires à la gestion des incidents ?;Aucune traçabilité des incidents;Liste d'incidents passés existe;Incidents passés qualifiés (root cause identifiées) et historisés;Incidents passés sont documentés et une procédure détaille leur  résolution;Incidents passé documentés et validés ou une procédure détaille leur process de résolution;Release;;Equipe de dév;Qualité du code;Application, Produit, Projet
-04;Les développeurs ont-ils connaissance du portail des développeurs ?;;;;;;;;;;
-05;La roadmap aplicative est-elle partagée avec les contributeurs projets ?;;;;;;;;;;
-06;Quel est le niveau de partage des objectifs et priorités sur le projet ?;;;;;;;;;;
-07;La résolution des bugs connus est-elle priorisée ?;;;;;;;;;;
-08;Les objectifs et la planification sont-il revus régulièrement en regard du contexte ?;;;;;;;;;;
-09;De quelle visibilité disposez-vous sur les charges de travail ?;;;;;;;;;;
-10;Les développeurs ont-il connaissance des Standards d'architecture de la structure ?;;;;;;;;;;
-11;Les développeurs sont-il familiarisés avec toute la base de code du projet ?;;;;;;;;;;
-12;Êtes vous en mesure de définir les termes suivants : Dette technique /  Refactoring / Code Rot / Règle du boyscout ?;;;;;;;;;;
-13;Est-ce qu'on trouve une branche 'master' ?;;;;;;;;;;
-14;Quel est le nombres de branches actives sur le serveur distant de référence ?;;;;;;;;;;
-15;Quelle est la durée de vie moyenne des branches en cours de développement sur le serveur distant de référence ?;;;;;;;;;;
-16;Est-ce que tous les développeurs utilisent l'outil de versionnage ?;;;;;;;;;;
-17;Existe-t'il des restrictions de réusinage (refactoring) sur le code l'application ?;;;;;;;;;;
-18;Quelles sont les pratiques en terme de revue de code ?;;;;;;;;;;
-19;Quelles sont les pratiques en terme de DDD (Domain Driven Design) ?;;;;;;;;;;
-20;Pratique-vous du pair/mob programming (montée en compétences de junior, partager des connaissances, remplacer des revues de code ou pratiquer le TDD) ?;;;;;;;;;;
-21;Existe-t'il un cadre défini pour les revues de code ?;;;;;;;;;;
-22;La résolution des bugs potentiels (rapport d'analyse) est-elle priorisée ?;;;;;;;;;;
-23;Les éléments de configurations sont-ils versionnés (code, tests, scripts, paramétrage, docs (DE, DI, ...)) ?;;;;;;;;;;
-24;Existe-t'il une convention de codage connue, partagée et appliquée par les développeurs ?;;;;;;;;;;
-25;Quel est le niveau de maîtrise de l'ouytil de build/packaging (maven, msbuild, gradle, ...) ?;;;;;;;;;;
-26;L'étape de compilation est-elle rapide ?;;;;;;;;;;
-27;Quel est l'usage fait des analyses statiques (Sonarqube) ?;;;;;;;;;;
-28;Existe-t'il un outil unique de packaging connu et partagé entre les membres de l'équipe ?;;;;;;;;;;
-29;Existe-t'il un serveur de build connu et partagé entre les membres de l'équipe ?;;;;;;;;;;
-30;Quel est l'usage fait de la plateforme d'intégration continue ?;;;;;;;;;;
-31;Les développeurs sont-ils sensibilisés à la pratique des tests automatisés ?;;;;;;;;;;
-32;Les développeurs sont-ils sensibilisés à la pratique de couverture de code ?;;;;;;;;;;
-33;L'application est évaluée au moins une fois par jour le serveur de build ?;;;;;;;;;;
-34;Quelle est la maturité de l'équipe concernant le TDD ?;;;;;;;;;;
-35;Quelle est la maturité de l'équipe concernant le BDD ?;;;;;;;;;;
-36;Sessions d'analyse statique sont-elle rapide ?;;;;;;;;;;
-37;Sessions de test automatisés sont-elles rapide ?;;;;;;;;;;
-38;Combien de temps prends le packaging ?;;;;;;;;;;
-39;Si je travaille avec un partenaire externe, est ce que les règles de collaboration sont partagées ?;;;;;;;;;;
-40;Est-ce que l'équipe de développement a accès à un profil utilisateur ?;;;;;;;;;;
-41;Quel est le niveau de l'environnement physique dédié aux contributeurs du projet ?;;;;;;;;;;
-42;Les développeurs ont-ils accès à un gestionnaire de dépendances de qualité, avec ou sans proxy et/ou miroirs ?;;;;;;;;;;
-43;Quel est le niveau de l'envionnment logiciel dédié aux contributeurs du projet ?;;;;;;;;;;
-44;Quel est le niveau du matériel dédié ayx contributeurs du projet ? Espace disque insuffisant/suffisant/confortable, Espace RAM insuffisant/suffisant/confortable, Puissance processeur insuffisant/suffisant/confortable, Taille et quantité des écrans insuffisant/suffisant/confortable ?;;;;;;;;;;
-45;Quel est le dégré d'accès documentaire technique ?;;;;;;;;;;
-46;Quel est le dégré de complexité du déploiement ?;;;;;;;;;;
-47;Quel est la fréquence de déploiement en production ?;;;;;;;;;;
-48;Quel est le dégré de confiance sur le rollback (retour arrière) ?;;;;;;;;;;
-49;Existe-t'il un leader technique dans l'équipe/projet/produit ?;;;;;;;;;;
-50;Quelle est la maturité concernant le monitoring du runtime ?;;;;;;;;;;
-51;Dans quelle mesure le travail inter-équipe est-il encouragé ?;;;;;;;;;;
-52;Quels sont les processus mis en place pour faciliter les échanges dev & ops ?;;;;;;;;;;
-53;Comment l'équipe entretient-elle son ninveau de savaoir-faire pendant le temps de travail ?;;;;;;;;;;
-54;Quel est le niveau d'échange entre les dev & les ops ?;;;;;;;;;;
-55;Le projet/ produit est-il conçu pour répondre à un besoin identifié ete sa valeur ajoutée est-elle mesurable ?;;;;;;;;;;
-56;Les hypothèses sur la pertinence du lancement de l'application/projet/produit ont-elle été verifiées avec des utilisateurs ?;;;;;;;;;;
-57;Le concept de Backlog Produit est-il appliqué ?;;;;;;;;;;
-58;Y'a t'il un rôle de Product Owner (PO) ou équivalent affecté au produit/application/projet ?;;;;;;;;;;
-59;La aleur métier est-elle une métrique de référence pour informaer les décisions prises par l'équipe ?;;;;;;;;;;
-60;L'équipe est-elle stable ?;;;;;;;;;;
-61;L'équipe conserve-t-elle une taille qui optimise la collaboration durant le cycle de vie de l'application/produit/projet ?;;;;;;;;;;
-62;L'équipe s'engage-t-elle sur sa capacité à produire de la valeur aux utilisateurs ? (capacité en Sprint Planning Scrum, WIP Limit en Kanban, ...);;;;;;;;;;
-63;Quelle est le degré de confiance et/ou de transaparence dans l'équipe ?;;;;;;;;;;
-64;Les utilisateurs sont-ils intégrés dans une boucle de feedback afin de faire évoluer le produit ? (interviews, démos, ...);;;;;;;;;;
-65;L'équipe suit-elle un principe d'incrémentalité/d'itération pour tester sa réalisation ?;;;;;;;;;;
-66;Comment est établi la mesure du succès de l'équipe ?;;;;;;;;;;
-67;Quel type de communication est mis en place pour rendre compte des avancées ?;;;;;;;;;;
-68;L'équipe délivre t'elle effectivement de la valeur métier à chaque itération ?;;;;;;;;;;
-69;Dans le cadre de son amélioration continue, l'équipe s'auto organise pour identifier, comprendre et supprimer les causes racines des incidents/imprévus ?;;;;;;;;;;
-70;Métier, IT et Prod participent à la création de la vision et sont alignes avec celle-ci;;;;;;;;;;
-71;Comment le budget alloué pour l'application/projet/produit est-il défini ?;;;;;;;;;;
-72;Comment est pensée la stratégie produit ?;Pas de stratégie Produit;Stratégie pas revue une fois définie;Stratégie mise à jour annuellement;Stratégie reveue régulièrement, incluant les évols sur plusieurs années et/ou la maintenance;La Straegie Produit est partagée Produit ets partagée à tous les niveaux de l'oganisation. Visible et accessible à tout moment via un management visuel. Elle s'appuie sur des KPI Agile/DevOps et économiques, dont la pertinence est revue régulièrement, qui peuvent fair eévoluer la stratégie du produit;Plan;;Evolution Stratégique;;Application, Produit, Projet
-73;Gestion de la documentation applicative ?;Pas de plan de gestion documentaire;Un plan de gestion documentaire existe;Un plan de gestion documentaire existe, et est partiellement mis en oeuvre;Plan de gestion documentaire mis en place, à jour, et mis en oeuvre;Plan de gestion documentaire mis en place, à jour, et mis en oeuvre dans les outils dédiés;Plan;Procédures & Outils;;;Patrimoine, Portfolio
-74;Gestion stratégie de test ?;Non;Stratégie de test définie en début de projet;Stratégie de tests avec une instance de mise à jour ponctuelle;Stratégie de tests évolutive mais incomplète;Stratégie de test complète, évolutive, identifie et évalue les risques, prenant en compte les efforts nécessaire, précisant les conditions d'acceptations de livraison;Plan;Procédures & Outils;;;Patrimoine, Portfolio
-75;Gestion exigences non fonctionnelles ?;Non;Un document d'exigence mais sans déclinaisons dans la stratégie de tests;Certaines exigences exprimées, mais sans preuve d'exhausitvité des tests;Toutes les ilities sont exprimés, et des modes de tests sont définis;Expression de toutes les ilities explicite avec un mode de test déclinés dans le document de stratégie de test et déclinable en continu;Plan;Procédures & Outils;;;Patrimoine, Portfolio
-76;Gestion des exigences fonctionnelles;Les documents d'éxigence sont les seuls moyens d'interaction avec les experts métiers/représentant utilisateurs;Des moyens decommunication indirect existent pour échanger avec des interlocuteurs métiers;Les interlocuteurs métiers sont dédiés et disponible pour répondre via mail / outils de ticketing / téléphone;les interlocuteurs métiers sont disponibles en direct;Un expert métier/ représentant utilisateaurs travaille au sein de l'équipe;Plan;Procédures & Outils;;;Patrimoine, Portfolio
+id,question,lvl0,lvl1,lvl2,lvl3,lvl4,Phase,Sourcing,Produit,Devops,Périmètre
+01,"La gestion des bugs connus et à résoudre existe, est connue, partagée et pérennes ? (anomalies non bloquantes en prod ou avant-prod)",Pas de base de connaissances des bugs,les bugs connus sont listés,"les bugs connus sont qualifiés, historisés","les bugs connus sont qualifiés, historisés, et remontés dans les supports de gouvernance","Les bugs connus sont qualifiés, historisés, documentés et centralisés (et remontés dans des supports de gouvernance)",Plan,Humain & Matériel,,Excellence Technique,Application, Produit, Projet
+02,Quel est le dégré de connaissance du produit de l'équipe ?,Le produit n'est pas vraiment compris pas l'équipe de développement, et pas de documentation sur le produit, sa raison d'être et ses fonctionnalités.,Seul le PO/RA peut faire ce genre de présentation OU une documentation technique du produit existe,Seul le CP/Tech  lead peuvent faire ce genre de présentation OU un manuel utilisateur existe,Tous les membres de l'équipe peuvent faire un elevator speech OU un élément de documentation détailée existe,Tous les membres de l'équipe peuvent faire un elevator speech ET un élément de documentation détailée existe,Plan,Pratiques Opérationnelles,Equipe de dév,Culture,Equipe de réalisation
+03,Le projet met-il à disposition les informations /  les documents nécessaires à la gestion des incidents ?,Aucune traçabilité des incidents,Liste d'incidents passés existe,Incidents passés qualifiés (root cause identifiées) et historisés,Incidents passés sont documentés et une procédure détaille leur  résolution,Incidents passé documentés et validés ou une procédure détaille leur process de résolution,Release,,Equipe de dév,Qualité du code,Application, Produit, Projet
+04,Les développeurs ont-ils connaissance du portail des développeurs ?,,,,,,,,,,
+05,La roadmap aplicative est-elle partagée avec les contributeurs projets ?,,,,,,,,,,
+06,Quel est le niveau de partage des objectifs et priorités sur le projet ?,,,,,,,,,,
+07,La résolution des bugs connus est-elle priorisée ?,,,,,,,,,,
+08,Les objectifs et la planification sont-il revus régulièrement en regard du contexte ?,,,,,,,,,,
+09,De quelle visibilité disposez-vous sur les charges de travail ?,,,,,,,,,,
+10,Les développeurs ont-il connaissance des Standards d'architecture de la structure ?,,,,,,,,,,
+11,Les développeurs sont-il familiarisés avec toute la base de code du projet ?,,,,,,,,,,
+12,Êtes vous en mesure de définir les termes suivants : Dette technique /  Refactoring / Code Rot / Règle du boyscout ?,,,,,,,,,,
+13,Est-ce qu'on trouve une branche 'master' ?,,,,,,,,,,
+14,Quel est le nombres de branches actives sur le serveur distant de référence ?,,,,,,,,,,
+15,Quelle est la durée de vie moyenne des branches en cours de développement sur le serveur distant de référence ?,,,,,,,,,,
+16,Est-ce que tous les développeurs utilisent l'outil de versionnage ?,,,,,,,,,,
+17,Existe-t'il des restrictions de réusinage (refactoring) sur le code l'application ?,,,,,,,,,,
+18,Quelles sont les pratiques en terme de revue de code ?,,,,,,,,,,
+19,Quelles sont les pratiques en terme de DDD (Domain Driven Design) ?,,,,,,,,,,
+20,Pratique-vous du pair/mob programming (montée en compétences de junior, partager des connaissances, remplacer des revues de code ou pratiquer le TDD) ?,,,,,,,,,,
+21,Existe-t'il un cadre défini pour les revues de code ?,,,,,,,,,,
+22,La résolution des bugs potentiels (rapport d'analyse) est-elle priorisée ?,,,,,,,,,,
+23,Les éléments de configurations sont-ils versionnés (code, tests, scripts, paramétrage, docs (DE, DI, ...)) ?,,,,,,,,,,
+24,Existe-t'il une convention de codage connue, partagée et appliquée par les développeurs ?,,,,,,,,,,
+25,Quel est le niveau de maîtrise de l'ouytil de build/packaging (maven, msbuild, gradle, ...) ?,,,,,,,,,,
+26,L'étape de compilation est-elle rapide ?,,,,,,,,,,
+27,Quel est l'usage fait des analyses statiques (Sonarqube) ?,,,,,,,,,,
+28,Existe-t'il un outil unique de packaging connu et partagé entre les membres de l'équipe ?,,,,,,,,,,
+29,Existe-t'il un serveur de build connu et partagé entre les membres de l'équipe ?,,,,,,,,,,
+30,Quel est l'usage fait de la plateforme d'intégration continue ?,,,,,,,,,,
+31,Les développeurs sont-ils sensibilisés à la pratique des tests automatisés ?,,,,,,,,,,
+32,Les développeurs sont-ils sensibilisés à la pratique de couverture de code ?,,,,,,,,,,
+33,L'application est évaluée au moins une fois par jour le serveur de build ?,,,,,,,,,,
+34,Quelle est la maturité de l'équipe concernant le TDD ?,,,,,,,,,,
+35,Quelle est la maturité de l'équipe concernant le BDD ?,,,,,,,,,,
+36,Sessions d'analyse statique sont-elle rapide ?,,,,,,,,,,
+37,Sessions de test automatisés sont-elles rapide ?,,,,,,,,,,
+38,Combien de temps prends le packaging ?,,,,,,,,,,
+39,Si je travaille avec un partenaire externe, est ce que les règles de collaboration sont partagées ?,,,,,,,,,,
+40,Est-ce que l'équipe de développement a accès à un profil utilisateur ?,,,,,,,,,,
+41,Quel est le niveau de l'environnement physique dédié aux contributeurs du projet ?,,,,,,,,,,
+42,Les développeurs ont-ils accès à un gestionnaire de dépendances de qualité, avec ou sans proxy et/ou miroirs ?,,,,,,,,,,
+43,Quel est le niveau de l'envionnment logiciel dédié aux contributeurs du projet ?,,,,,,,,,,
+44,Quel est le niveau du matériel dédié ayx contributeurs du projet ? Espace disque insuffisant/suffisant/confortable, Espace RAM insuffisant/suffisant/confortable, Puissance processeur insuffisant/suffisant/confortable, Taille et quantité des écrans insuffisant/suffisant/confortable ?,,,,,,,,,,
+45,Quel est le dégré d'accès documentaire technique ?,,,,,,,,,,
+46,Quel est le dégré de complexité du déploiement ?,,,,,,,,,,
+47,Quel est la fréquence de déploiement en production ?,,,,,,,,,,
+48,Quel est le dégré de confiance sur le rollback (retour arrière) ?,,,,,,,,,,
+49,Existe-t'il un leader technique dans l'équipe/projet/produit ?,,,,,,,,,,
+50,Quelle est la maturité concernant le monitoring du runtime ?,,,,,,,,,,
+51,Dans quelle mesure le travail inter-équipe est-il encouragé ?,,,,,,,,,,
+52,Quels sont les processus mis en place pour faciliter les échanges dev & ops ?,,,,,,,,,,
+53,Comment l'équipe entretient-elle son ninveau de savaoir-faire pendant le temps de travail ?,,,,,,,,,,
+54,Quel est le niveau d'échange entre les dev & les ops ?,,,,,,,,,,
+55,Le projet/ produit est-il conçu pour répondre à un besoin identifié ete sa valeur ajoutée est-elle mesurable ?,,,,,,,,,,
+56,Les hypothèses sur la pertinence du lancement de l'application/projet/produit ont-elle été verifiées avec des utilisateurs ?,,,,,,,,,,
+57,Le concept de Backlog Produit est-il appliqué ?,,,,,,,,,,
+58,Y'a t'il un rôle de Product Owner (PO) ou équivalent affecté au produit/application/projet ?,,,,,,,,,,
+59,La aleur métier est-elle une métrique de référence pour informaer les décisions prises par l'équipe ?,,,,,,,,,,
+60,L'équipe est-elle stable ?,,,,,,,,,,
+61,L'équipe conserve-t-elle une taille qui optimise la collaboration durant le cycle de vie de l'application/produit/projet ?,,,,,,,,,,
+62,L'équipe s'engage-t-elle sur sa capacité à produire de la valeur aux utilisateurs ? (capacité en Sprint Planning Scrum, WIP Limit en Kanban, ...),,,,,,,,,,
+63,Quelle est le degré de confiance et/ou de transaparence dans l'équipe ?,,,,,,,,,,
+64,Les utilisateurs sont-ils intégrés dans une boucle de feedback afin de faire évoluer le produit ? (interviews, démos, ...),,,,,,,,,,
+65,L'équipe suit-elle un principe d'incrémentalité/d'itération pour tester sa réalisation ?,,,,,,,,,,
+66,Comment est établi la mesure du succès de l'équipe ?,,,,,,,,,,
+67,Quel type de communication est mis en place pour rendre compte des avancées ?,,,,,,,,,,
+68,L'équipe délivre t'elle effectivement de la valeur métier à chaque itération ?,,,,,,,,,,
+69,Dans le cadre de son amélioration continue, l'équipe s'auto organise pour identifier, comprendre et supprimer les causes racines des incidents/imprévus ?,,,,,,,,,,
+70,Métier, IT et Prod participent à la création de la vision et sont alignes avec celle-ci,,,,,,,,,,
+71,Comment le budget alloué pour l'application/projet/produit est-il défini ?,,,,,,,,,,
+72,Comment est pensée la stratégie produit ?,Pas de stratégie Produit,Stratégie pas revue une fois définie,Stratégie mise à jour annuellement,Stratégie reveue régulièrement, incluant les évols sur plusieurs années et/ou la maintenance,La Straegie Produit est partagée Produit ets partagée à tous les niveaux de l'oganisation. Visible et accessible à tout moment via un management visuel. Elle s'appuie sur des KPI Agile/DevOps et économiques, dont la pertinence est revue régulièrement, qui peuvent fair eévoluer la stratégie du produit,Plan,,Evolution Stratégique,,Application, Produit, Projet
+73,Gestion de la documentation applicative ?,Pas de plan de gestion documentaire,Un plan de gestion documentaire existe,Un plan de gestion documentaire existe, et est partiellement mis en oeuvre,Plan de gestion documentaire mis en place, à jour, et mis en oeuvre,Plan de gestion documentaire mis en place, à jour, et mis en oeuvre dans les outils dédiés,Plan,Procédures & Outils,,,Patrimoine, Portfolio
+74,Gestion stratégie de test ?,Non,Stratégie de test définie en début de projet,Stratégie de tests avec une instance de mise à jour ponctuelle,Stratégie de tests évolutive mais incomplète,Stratégie de test complète, évolutive, identifie et évalue les risques, prenant en compte les efforts nécessaire, précisant les conditions d'acceptations de livraison,Plan,Procédures & Outils,,,Patrimoine, Portfolio
+75,Gestion exigences non fonctionnelles ?,Non,Un document d'exigence mais sans déclinaisons dans la stratégie de tests,Certaines exigences exprimées, mais sans preuve d'exhausitvité des tests,Toutes les ilities sont exprimés, et des modes de tests sont définis,Expression de toutes les ilities explicite avec un mode de test déclinés dans le document de stratégie de test et déclinable en continu,Plan,Procédures & Outils,,,Patrimoine, Portfolio
+76,Gestion des exigences fonctionnelles,Les documents d'éxigence sont les seuls moyens d'interaction avec les experts métiers/représentant utilisateurs,Des moyens decommunication indirect existent pour échanger avec des interlocuteurs métiers,Les interlocuteurs métiers sont dédiés et disponible pour répondre via mail / outils de ticketing / téléphone,les interlocuteurs métiers sont disponibles en direct,Un expert métier/ représentant utilisateaurs travaille au sein de l'équipe,Plan,Procédures & Outils,,,Patrimoine, Portfolio
