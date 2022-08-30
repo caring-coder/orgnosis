@@ -37,7 +37,7 @@ id,question,lvl0,lvl1,lvl2,lvl3,lvl4,Phase,Sourcing,Produit,Devops,Périmètre
 36,Sessions d'analyse statique sont-elle rapide ?,,,,,,,,,,
 37,Sessions de test automatisés sont-elles rapide ?,,,,,,,,,,
 38,Combien de temps prends le packaging ?,,,,,,,,,,
-39,Si je travaille avec un partenaire externe, est ce que les règles de collaboration sont partagées ?,,,,,,,,,,
+39,"Si je travaille avec un partenaire externe, est ce que les règles de collaboration sont partagées ?",,,,,,,,,,
 40,Est-ce que l'équipe de développement a accès à un profil utilisateur ?,,,,,,,,,,
 41,Quel est le niveau de l'environnement physique dédié aux contributeurs du projet ?,,,,,,,,,,
 42,Les développeurs ont-ils accès à un gestionnaire de dépendances de qualité, avec ou sans proxy et/ou miroirs ?,,,,,,,,,,
