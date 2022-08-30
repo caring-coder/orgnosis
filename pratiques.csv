@@ -22,7 +22,7 @@ id,question,lvl0,lvl1,lvl2,lvl3,lvl4,Phase,Sourcing,Produit,Devops,Périmètre
 21,Existe-t'il un cadre défini pour les revues de code ?,,,,,,,,,,
 22,La résolution des bugs potentiels (rapport d'analyse) est-elle priorisée ?,,,,,,,,,,
 23,Les éléments de configurations sont-ils versionnés (code, tests, scripts, paramétrage, docs (DE, DI, ...)) ?,,,,,,,,,,
-24,Existe-t'il une convention de codage connue, partagée et appliquée par les développeurs ?,,,,,,,,,,
+24,"Existe-t'il une convention de codage connue, partagée et appliquée par les développeurs ?",,,,,,,,,,
 25,Quel est le niveau de maîtrise de l'ouytil de build/packaging (maven, msbuild, gradle, ...) ?,,,,,,,,,,
 26,L'étape de compilation est-elle rapide ?,,,,,,,,,,
 27,Quel est l'usage fait des analyses statiques (Sonarqube) ?,,,,,,,,,,
