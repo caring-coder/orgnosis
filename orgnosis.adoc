@@ -3,94 +3,80 @@ Joseph Verron <joseph@verron.pro>
 :toc:
 
 == Gestion des bugs
-* La gestion des bugs connus et à résoudre existe, est connue, partagée et pérenne ? (anomalies non bloquantes en prod ou avant-prod)
 
-** Pas de base de connaissances des bugs
-** Les bugs connus sont listés
-** Les bugs connus sont qualifiés, historisés
-** Les bugs connus sont qualifiés, historisés, et remontés dans les supports de gouvernance
-** Les bugs connus sont qualifiés, historisés, documentés et centralisés (et remontés dans des supports de gouvernance)
+.Base de connaissance
+****
+La gestion des bugs connus et à résoudre existe, est connue, est partagée et est pérenne ?
 
-* Le projet met-il à disposition les informations /  les documents nécessaires à la gestion des incidents ?
-** Aucune traçabilité des incidents
-** Liste d'incidents passés existe
-** Incidents passés qualifiés (root cause identifiée) et historisés
-** Incidents passés sont documentés et une procédure détaille leur  résolution
-** Incidents passés documentés et validés ou une procédure détaille leur process de résolution
+
+* [ ] Pas de base de connaissances des bugs
+* [ ] Les bugs connus sont listés
+* [ ] Les bugs connus sont qualifiés, historisés
+* [ ] Les bugs connus sont qualifiés, historisés et remontés dans les supports de gouvernance
+* [ ] Les bugs connus sont qualifiés, historisés, documentés et centralisés (et remontés dans des supports de gouvernance)
+
+NOTE: Pour cette question, les bugs correspondent aux anomalies non bloquantes peu importe où dans le cycle de développement ils sont détectés.
+****
+
+.Traçabilité
+****
+Le projet met-il à disposition les informations /  les documents nécessaires à la gestion des incidents ?
+
+* [ ] Aucune traçabilité des incidents
+* [ ] Liste d'incidents passés existe
+* [ ] Incidents passés qualifiés (root cause identifiée) et historisés
+* [ ] Incidents passés sont documentés et une procédure détaille leur  résolution
+* [ ] Incidents passés documentés et validés ou une procédure détaille leur process de résolution
+
+NOTE: Quid des documentations post-mortem visant à empêcher la réapparition du problème ? ?
+****
+
+.Priorisation
+****
+La résolution des bugs connus est-elle priorisée ?
+
+* [ ] Au moins un bug connu de plus de 6 mois et non corrigé
+* [ ] Aucun bug connu existant  et non corrigé de plus de 6 mois
+* [ ] Aucun bug connu existant  et non corrigé de plus de 4 mois
+* [ ] Aucun bug connu existant  et non corrigé de plus de 2 mois
+* [ ] Aucun bug connu existant  et non corrigé de plus de 2 sprints
+****
+
+La résolution des bugs potentiels (rapport d'analyse) est-elle priorisée ?
+
+* Pas d'analyses de la base de code
+* Les analyses ne sont pas particulièrement prises en compte
+* Les retours des analyses sont visibles ou présentés régulièrement
+* Des actions de remédiations aux violations constatées sont mises en place
+* Un travail n'est pas considéré comme terminé tant que des violations sont constatés dans les rapports d'analyse
 
 == Connaissance Produit
 Quel est le degré de connaissance du produit de l'équipe ?
 
-* Le produit n'est pas vraiment compris pas l'équipe de développement, et pas de documentation sur le produit, sa raison d'àªtre et ses fonctionnalités.
-* Seul le PO/RA peut faire ce genre de présentation OU une documentation technique du produit existe
-* Seul le CP/Tech  lead peuvent faire ce genre de présentation OU un manuel utilisateur existe
-* Tous les membres de l'équipe peuvent faire un elevator speech OU un élément de documentation détailée existe
-* Tous les membres de l'équipe peuvent faire un elevator speech ET un élément de documentation détailée existe
-
-== Connaissance Organisation
-Les développeurs ont-ils connaissance du portail des développeurs ?
-
-* Non
-* Réminiscent
-* Connu
-* Sais comment y accéder
-* Consulté / Mis à jour
+* [ ] Le produit n'est pas vraiment compris pas l'équipe de développement, et pas de documentation sur le produit, sa raison d'etre et ses fonctionnalités.
+* [ ] Seul le PO/RA peut faire ce genre de présentation OU une documentation technique du produit existe
+* [ ] Seul le CP/Tech  lead peuvent faire ce genre de présentation OU un manuel utilisateur existe
+* [ ] Tous les membres de l'équipe peuvent faire une présentation rapide OU un élément de documentation détaillée existe
+* [ ] Tous les membres de l'équipe peuvent faire une présentation rapide ET un élément de documentation détaillée existe
 
 La roadmap applicative est-elle partagée avec les contributeurs projets ?
 
 * La roadmap n'existe pas
-* la roadmap existe dans une version non validée
-* la roadmap est en place mais n'a pas été partagée avec les contributeurs
-* la roadmap à court terme (>3 mois) est en place et a été partagée avec l'équipe
+* La roadmap existe dans une version non validée
+* La roadmap est en place, mais n'a pas été partagée avec les contributeurs
+* La roadmap à court terme (>3 mois) est en place et a été partagée avec l'équipe
 * La roadmap à long terme >12 mois est en place, partagée et accessible
 
-Quel est le niveau de partage des objectifs et priorités sur le projet ?
+== Connaissance Organisation
+Les développeurs ont-ils connaissance du portail des développeurs ?
 
-* L'équipe de développement gère les problèmes au fur et à mesure qu'ils deviennent bloquants
-* Les membres du projet connaissent leurs objectifs ou priorité des prochaines 24h
-* Les membres du projet connaissent leurs objectifs ou priorité de la semaine et sont confiant qu'il ne changeront pas
-* Les membres du projet connaissent leurs objectifs ou priorité du sprint (2 à 5 semaines) et sont confiant qu'il ne changeront pas
-* Les membres du projet connaissent leurs objectifs ou priorité du sprint (2 à 5 semaines) et  ont une idée assez précise  des objectifs et priorités du sprint suivant
+* [ ] Non
+* [ ] Reminiscent
+* [ ] Connu
+* [ ] Sais comment y accéder
+* [ ] Consulté / Mis à jour
 
-La résolution des bugs connus est-elle priorisée ?
-
-* Au moins un bug connu de plus de 6 mois et non corrigé
-* Aucun bug connu existant  et non corrigé de plus de 6 mois
-* Aucun bug connu existant  et non corrigé de plus de 4 mois
-* Aucun bug connu existant  et non corrigé de plus de 2 mois
-* Aucun bug connu existant  et non corrigé de plus de 2 sprints
-
-Les objectifs et la planification sont-il revus régulièrement en regard du contexte ?
-
-* Aucune revue n'est prévue
-* Les objectifs sont mis à jour en fonction des évènements de manière adhoc par le CP
-* Les objectifs sont mis à jour en fonction des évènements de manière régulière par le CP
-* Les objectifs sont mis à jour en fonction des évènements de manière régulière avec l'ensemble des collaborateurs projets
-* Le sobjectifs et la planification sont revus régulièrement avec l'ensemble des contributeurs du projet
-
-De quelle visibilité disposez-vous sur les charges de travail ?
-
-* Les tâches sont priorisée sans consulter les contributeurs
-* Les contributeurs sont impliqués dans le processus de priorisation
-* Les contributeurs sont impliqués dans le processus d'estimation
-* Les contributeurs sont impliqués dans le processus de manière collégiale
-* Les contributeurs ont la visibilité sur les tâches à réaliser pour l'intégralité du projet
-
-Les développeurs ont-il connaissance des Standards d'architecture de la structure ?
-
-* Quid ?
-* Ah oui, je me souviens d'un truc !
-* Les règles qu'on toruve sur l'intranet, à tel endroit ?
-* Ah oui, les standard sur <exemple1> ou <exemple 2> qu'on peut trouver à tel endroit ?
-* Ben oui, on a même fait des retours dessus à nos architectes logiciels
-
-Les développeurs sont-il familiarisés avec toute la base de code du projet ?
-
-* Il existe une ou plusieurs zones du code considérés trop complexes, ou "legacy" et donc non modificables
-* Chaque développeur ne travaille que sur une partie de la base de code
-* Tous les membres de l'équipe se sentent capable de travailler sur toute la base de code avec un collègue référent
-* Tous les membres de l'équipe se sentent capable de travailler sur toute la base de code tant qu'un  collègue référent est disponible.
-* Tous les membres de l'équipe se sentent capable de travailler sur toute la base de code indépendamment.
+== Pratiques de développement
 
 Êtes-vous en mesure de définir les termes suivants : Dette technique /  Refactoring / Code Rot / Règle du boyscout ?
 
@@ -106,9 +92,9 @@ Est-ce qu'on trouve une branche 'master' ?
 * Pas de SCM distribué
 * Pas le SCM de référence
 * Pas de trunk de référence
-* Une branche tunk ou équivalent
+* Une branche trunk ou équivalent
 
-Quel est le nombres de branches actives sur le serveur distant de référence ?
+Quel est le nombre de branches actives sur le serveur distant de référence ?
 
 * pas de SCM
 * Pas de SCM distribué
@@ -120,25 +106,17 @@ Quelle est la durée de vie moyenne des branches en cours de développement sur 
 
 * Pas de SCM
 * Pas de SCM distribué
-* >1mois
-* >1 semaine
+* > 1 mois
+* > 1 semaine
 * > 1 jour
 
 Est-ce que tous les développeurs utilisent l'outil de versionnage ?
 
 * Pas de SCM
 * Pas de SCM distribué
-* Au moins un membre de l'équipe maitrise Git suffisament pour réecrire l'historique si nécessaie (mot de passe en dur, …)
-* Au moins la moitié de l'équipe maitrise Git suffisament pour réecrire l'historique si nécessaire (mot de passe en dur, …)
+* Au moins un membre de l'équipe maitrise Git suffisamment pour récrire l'historique si nécessaire (mot de passe en dur, …)
+* Au moins la moitié de l'équipe maitrise Git suffisamment pour récrire l'historique si nécessaire (mot de passe en dur, …)
 * Toute l'équipe maitrise Git
-
-Existe-t'il des restrictions de réusinage (refactoring) sur le code l'application ?
-
-* Il existe une partie du code dont le résuinage et spécifiquement interdit
-* Pas de refactoring sans demande d'évolution explicite (don't fix what's not broken)
-* Refactoring limité aux méthodes modifiées pour les travaux en cours
-* Refactoring limité aux fichiers modifiés pour les travaux en cours
-* Refactoring libre sur l'intégralité de la base de code
 
 Quelles sont les pratiques en termes de revue de code ?
 
@@ -153,8 +131,8 @@ Quelles sont les pratiques en termes de DDD (Domain Driven Design) ?
 * Pas de conception orientée objet
 * On peut identifier une conception orientée objet
 * On peut identifier une composante contenant la logique métier
-* Le ou les composants métiers sont indépendants de tous les autres composants et systèmes d'input/ouput
-* Le code reproduit une métaphore de la vision métier (ubiquitous language)
+* Le ou les composants métiers sont indépendants de tous les autres composants et systèmes d'input/output
+* Le code reproduit une métaphore de la vision métier (ubiquitous langage)
 
 Pratiquez-vous du pair/mob programming (montée en compétences de junior, partager des connaissances, remplacer des revues de code ou pratiquer le TDD) ?
 
@@ -172,26 +150,20 @@ Existe-t-il un cadre défini pour les revues de code ?
 * Un cadre explicite est formalisé existe, est partagé et est appliqué
 * Ce cadre inclut la vérification des standards de l'organisation
 
-La résolution des bugs potentiels (rapport d'analyse) est-elle priorisée ?
 
-* Pas d'analyses de la base de code
-* Les analyses ne sont pas particulièrement prises en compte
-* Les retours des analyses sont visibles ou présentés régulièrement
-* Des actions de remédiations aux violations constatées sont mises en place
-* Un travail n'est aps considéré comme terminé tant que des violations sont constatés dans les rapports d'analyse
 
 Les éléments de configurations sont-ils versionnés (code, tests, scripts, paramétrage, docs (DE, DI, ...)) ?
 
 * Pas de SCM / Documentation non versionnée
 * Un plan de gestion de configuration existe
-* Mise en œuvre partielle du plan de configuratiion
+* Mise en œuvre partielle du plan de configuration
 * Mise en œuvre totale
 * Mise en œuvre totale dans els outils de référence
 
 Existe-t-il une convention de codage connue, partagée et appliquée par les développeurs ?
 
 * Pas de convention de codage connue ou partagée
-* Une convention de codage connue mais pas forcément appliquée
+* Une convention de codage connue, mais pas forcément appliquée
 * Une convention de codage documentée explicitement
 * Une convention de codage documentée et utilisée comme référence lors des revues
 * Convention de codage existante, partagée, automatisée et appliquée systématiquement
@@ -212,21 +184,13 @@ L'étape de compilation est-elle rapide ?
 * L'étape de compilation dure <1min
 * L'étape de compilation dure <10sec
 
-Quel est l'usage fait des analyses statiques (Sonarqube) ?
-
-* Pas d'analyse ou pas d'exploitation des résultats
-* Les résultats des évaluations sont conservés
-* Les résultats des évaluations sont visibles par les développeurs
-* Les résultats des évaluations sont visibles par toute l'équipe
-* Les résultats des évaluations sont utilisés par les développeurs et pour le pilotage (vision applicative et portfolio)
-
 Existe-t-il un outil unique de packaging connu et partagé entre les membres de l'équipe ?
 
-* L'application n'est jamais packagée (pas compilée, pas zippée, pas versionnée)
-* L'application est packagé manuellement
-* L'application est packagée via une configuration et un outil
-* L'application est packagée via une configuration et un outil standard de l'organisation
-* L'application est packagée via une configuration historisée et un unique outil  standard de l'organisation
+* L'application n'est jamais empaquetée (pas compilée, pas zippée, pas versionnée)
+* L'application est empaquetée manuellement
+* L'application est empaquetée via une configuration et un outil
+* L'application est empaquetée via une configuration et un outil standard de l'organisation
+* L'application est empaquetée via une configuration historisée et un unique outil  standard de l'organisation
 
 Existe-t-il un serveur de build connu et partagé entre les membres de l'équipe ?
 
@@ -248,9 +212,9 @@ Les développeurs sont-ils sensibilisés à la pratique des tests automatisés ?
 
 * Pas de tests automatisés
 * Des tests automatisés existent
-* Des tests automatisés sont executé régulièrement
-* Des tests automatisés sont ajoutés et executés pour chaque ajout de fonctionalité
-* Des tests automatisés sont executés pour chaque ajout de fonctionalité pour chaque évolutiond e la bas ede code (à chaque push)
+* Des tests automatisés sont démarrés régulièrement
+* Des tests automatisés sont ajoutés et démarrés pour chaque ajout de fonction
+* Des tests automatisés sont démarrés pour chaque ajout de fonction pour chaque évolution de la base de code (à chaque push)
 
 Les développeurs sont-ils sensibilisés à la pratique de couverture de code ?
 
@@ -279,23 +243,23 @@ Quelle est la maturité de l'équipe concernant le TDD ?
 Quelle est la maturité de l'équipe concernant le BDD ?
 
 * Pas de tests d'acceptation objectifs
-* Il existe des tests d'acceptance dans les spécifications
-* les tests d'acceptance sont suffisants pour valider de manière autonome les évolutions
-* Les tests d'acceptance sont automatisés par les développeurs
-* Le stests d'acceptance sont automatisés via un parseur de domain specific language
+* Il existe des tests d'acceptation dans les spécifications
+* Les tests d'acceptation sont suffisants pour valider de manière autonome les évolutions
+* Les tests d'acceptation sont automatisés par les développeurs
+* Les tests d'acceptation sont automatisés via un parseur de "Langage Spécifique au domaine"
 
-Sessions d'analyse statique sont-elle rapide ?
+Sessions d'analyse statique sont-elles rapides ?
 
-* Sessions d'analyse statique > 1h
-* Sessions d'analyse statique < 1h
+* Sessions d'analyse statique > 1 h
+* Sessions d'analyse statique < 1 h
 * Sessions d'analyse statique < 10min
 * Sessions d'analyse statique < 1min
 * Sessions d'analyse statique < 10s
 
-Sessions de test automatisés sont-elles rapide ?
+Sessions de test automatisé sont-elles rapides ?
 
-* Sessions de tests automatisés > 1h
-* Sessions de tests automatisés < 1h
+* Sessions de tests automatisés > 1 h
+* Sessions de tests automatisés < 1 h
 * Sessions de tests automatisés < 10min
 * Sessions de tests automatisés < 1min
 * Sessions de tests automatisés < 10s
@@ -308,17 +272,87 @@ Combien de temps prends le packaging ?
 * Packaging < 10 min
 * Packaging < 1 min
 
-Si je travaille avec un partenaire externe, est ce que les règles de collaboration sont partagées ?
+Quel est le niveau de partage des objectifs et priorités sur le projet ?
+
+* L'équipe de développement gère les problèmes au fur et à mesure qu'ils deviennent bloquants
+* Les membres du projet connaissent leurs objectifs ou priorité des prochaines 24 h
+* Les membres du projet connaissent leurs objectifs ou priorité de la semaine et sont convaincus qu'il ne changera pas
+* Les membres du projet connaissent leurs objectifs ou priorité du sprint (2 à 5 semaines) et sont convaincus qu'il ne changera pas.
+* Les membres du projet connaissent leurs objectifs ou priorité du sprint (2 à 5 semaines) et  ont une idée assez précise  des objectifs et priorités du sprint suivant.
+
+Les objectifs et la planification sont-ils revus régulièrement en regard du contexte ?
+
+* Aucune revue n'est prévue
+* Les objectifs sont mis à jour en fonction des évènements de manière adhoc par le CP
+* Les objectifs sont mis à jour en fonction des évènements de manière régulière par le CP
+* Les objectifs sont mis à jour en fonction des évènements de manière régulière avec l'ensemble des collaborateurs projets
+* Les objectifs et la planification sont revus régulièrement avec l'ensemble des contributeurs du projet
+
+De quelle visibilité disposez-vous sur les charges de travail ?
+
+* Les tâches sont priorisées sans consulter les contributeurs
+* Les contributeurs sont impliqués dans le processus de priorisation
+* Les contributeurs sont impliqués dans le processus d'estimation
+* Les contributeurs sont impliqués dans le processus de manière collégiale
+* Les contributeurs ont la visibilité sur les tâches à réaliser pour l'intégralité du projet
+
+Les développeurs ont-ils connaissance des Standards d'architecture de la structure ?
+
+* Quid ?
+* Ah oui, je me souviens d'un truc !
+* Les règles qu'on trouve sur l'intranet, à tel endroit ?
+* Ah oui, les standard sur <exemple1> ou <exemple 2> qu'on peut trouver à tel endroit ?
+* Ben oui, on a même fait des retours dessus à nos architectes logiciels
+
+Les développeurs sont-ils familiarisés avec toute la base de code du projet ?
+
+* Il existe une ou plusieurs zones du code considéré trop complexes, ou "legacy" et donc non modifiables
+* Chaque développeur ne travaille que sur une partie de la base de code
+* Tous les membres de l'équipe se sentent capable de travailler sur toute la base de code avec un collègue référent
+* Tous les membres de l'équipe se sentent capable de travailler sur toute la base de code tant qu'un  collègue référent est disponible.
+* Tous les membres de l'équipe se sentent capable de travailler sur toute la base de code indépendamment.
+
+
+
+
+
+
+
+
+
+
+
+Existe-t-il des restrictions de réusinage (refactoring) sur le code l'application ?
+
+* Il existe une partie du code dont le réusinage et spécifiquement interdit
+* Pas de refactoring sans demande d'évolution explicite (don't fix what's not broken)
+* Refactoring limité aux méthodes modifiées pour les travaux en cours
+* Refactoring limité aux fichiers modifiés pour les travaux en cours
+* Refactoring libre sur l'intégralité de la base de code
+
+
+
+
+
+Quel est l'usage fait des analyses statiques (Sonarqube) ?
+
+* Pas d'analyse ou pas d'exploitation des résultats
+* Les résultats des évaluations sont conservés
+* Les résultats des évaluations sont visibles par les développeurs
+* Les résultats des évaluations sont visibles par toute l'équipe
+* Les résultats des évaluations sont utilisés par les développeurs et pour le pilotage (vision applicative et portfolio)
+
+Si je travaille avec un partenaire externe, est-ce que les règles de collaboration sont partagées ?
 
 * Inconnu
-* Je sais que ses régles existent
+* Je sais que ces règles existent
 * Je sais où le trouver
-* Je sais m'y réferer
-* je l'ai déjà lu au moins une fois
+* Je sais m'y referrer
+* Je l'ai déjà lu au moins une fois
 
-Est-ce que l'équipe de développement a accès à  un profil utilisateur ?
+Est-ce que l'équipe de développement a accès à un profil utilisateur ?
 
-* Aucune instance n'est accessible ou ne peut-être reproduite sur les machines developpeurs
+* Aucune instance n'est accessible ou ne peut être reproduite sur les machines développeurs
 * Les développeurs peuvent reproduire une instance sur leur machine
 * Les développeurs ont accès à une version simulant les conditions de production
 * Au moins un membre du projet a accès à un compte utilisateur en production
@@ -328,46 +362,57 @@ Quel est le niveau de l'environnement physique dédié aux contributeurs du proj
 
 * Locaux non adaptés à la pratique du codage
 * Les développeurs ont la possibilité de s'isoler mentalement pour se concentrer (casques, télétravail, flex-office)
-* Locaux relativement silencieux avec peu ou très peu de perturbation (déménagements d'équipe, échange téléphoniques, demande d'interventions venant d'autres équipes, etc…)
-* Les développeurs ont la possibilité de s'isoler temporairement de leur equipe pour se concentrer
-* Les développeurs ont la possibilité de si'soler dans une pièce séparée pour se concentrer
+* Locaux relativement silencieux avec peu ou très peu de perturbation (déménagements d'équipe, échange téléphoniques, demande d'interventions venant d'autres équipes, etc.)
+* Les développeurs ont la possibilité de s'isoler temporairement de leurs équipes pour se concentrer
+* Les développeurs ont la possibilité de s'isoler dans une pièce séparée pour se concentrer
 
 Les développeurs ont-ils accès à un gestionnaire de dépendances de qualité, avec ou sans proxy et/ou miroirs ?
 
 * Pas de gestion des dépendances
-* La gestion des dépendances est faites via un dossier libs/third-party/vendors/…
-* Les gestions des dépendances est fairte via un gestionnaire de dépendances (maven, npm, apt, …)
-* Les gestions des dépendances est fairte via un gestionnaire de dépendances configuré avec un dépôt interne à la société
-* La gestion des dépendances est faite via un gezstionnaire de dépendances, configuré avec un dépôt public, ou un dépôt interne à la société avec un accès au dépots publics
+* La gestion des dépendances est faite via un dossier libs/third-party/vendors/…
+* Les gestions des dépendances sont faites via un gestionnaire de dépendances (maven, npm, apt, …)
+* Les gestions des dépendances sont faites via un gestionnaire de dépendances configuré avec un dépôt interne à la société
+* La gestion des dépendances est faite via un gestionnaire de dépendances, configuré avec un dépôt public ou un dépôt interne à la société avec un accès au depots publics.
 
 Quel est le niveau de l'environnement logiciel dédié aux contributeurs du projet ?
 
 * Pas de droits d'installation et pas le minimum nécessaire installé ou installable
 * Socle logiciel standard open source installé ou accessible (centre logiciel)
 * Socle logiciel professionnel (sous licence) installé ou accessible (centre logiciel)
-* Droits d'installation locaux, ou possibilité d'homologation d'outils open source supplémentaires
+* Droits d'installation locaux ou possibilité d'homologation d'outils open source supplémentaires
 * Possibilité d'homologation d'outils professionnels (sous licence) supplémentaires
 
-Quel est le niveau du matériel dédié ayx contributeurs du projet ? Espace disque insuffisant/suffisant/confortable, Espace RAM insuffisant/suffisant/confortable, Puissance processeur insuffisant/suffisant/confortable, Taille et quantité des écrans insuffisant/suffisant/confortable ?
+Quel est le niveau du matériel dédié ayx contributeurs du projet ?
 
-* <2 sur 8
-* < 4 sur  8
-* <6 sur 8
+[NOTE]
+====
+Espace disque insuffisant, suffisant, confortable ?
+
+Espace RAM insuffisant, suffisant, confortable,
+
+Puissance processeur insuffisant, suffisant, confortable,
+
+Taille et quantité des écrans insuffisante, suffisante, confortable ?
+====
+
+* < 2 sur 8
+* < 4 sur 8
+* < 6 sur 8
 * < 8 sur 8
 * 8 sur 8
 
-Quel est le dégré d'accès documentaire technique ?
+Quel est le degré d'accès documentaire technique ?
 
 * Accès à ce qui est en local sur les postes locaux
 * Et ce qui est sur le réseau interne
-* Et ce qui est sur une whitelist d'url externes avec un process simple de mise à jour
-* et une bibliothèque de médias de formation ou de référence, papiers ou électronique
+* Et ce qui est sur une whitelist d'URL externes avec un process simple de mise à jour
+* Et une bibliothèque de médias de formation ou de référence, papiers ou électronique
 * Extensive, ou avec un process d'ajout simple
 
-Quel est le dégré de complexité du déploiement ?
+Quel est le degré de complexité du déploiement ?
 
 * Déploiement manuel
-* Déploiement décrit dans une procédure ecrite
+* Déploiement décrit dans une procédure écrite
 * Déplacement d'un livrable et execution d'un script unique d'installation
 * Déploiement continu mis en place (validation click)
 * Déploiement continu mis en place (no click)
@@ -378,39 +423,39 @@ Quel est la fréquence de déploiement en production ?
 * Moins d'une fois par trimestre
 * < 1 fois par sprint
 * 1 fois par sprint
-* 1 par feature branch mergée/ +ieurs fois par sprint
+* 1 par feature branch mergée/ OU plusieurs fois par sprint
 
-Quel est le dégré de confiance sur le rollback (retour arrière) ?
+Quel est le degré de confiance sur le rollback (retour arrière) ?
 
 * Pas de procédure de rollback
 * Procédure manuelle existante (pas testée)
-* Proceédure manuelle testée régulièrement ou procédure automatisée
-* Proceédure manuelle testée à chaque MEP ou procédure automatisée testée régulièrement
-* Procédure de rollback automatisée et tetée à chaque MEP
+* Procédure manuelle testée régulièrement ou procédure automatisée
+* Procédure manuelle testée à chaque MEP ou procédure automatisée testée régulièrement
+* Procédure de rollback automatisée et testée à chaque MEP
 
 Existe-t-il un leader technique dans l'équipe/projet/produit ?
 
 * Non
 * Oui, mais pas à temps plein
-* Oui, depuis le début du projet, mais pas à temps plain, ou équipe de juniors autonomes sur leurs montée en compétence
-* Oui, depuis le début du projet à temps plein, il transmet ses connaissances OU equipe de seniors autonomes sur leurs montée en compétences
-* Oui, depuis le début du projet, à temps plein, il transmets ses connaissances, et aplliqued et fait appliquer les standards de l'organisation
+* Oui, depuis le début du projet, mais pas à temps plain ou équipe de juniors autonomes sur leurs montée en compétence
+* Oui, depuis le début du projet à temps plein, il transmet ses connaissances OU équipe de seniors autonomes sur leurs montée en compétences.
+* Oui, depuis le début du projet, à temps plein, il transmet ses connaissances et fait appliquer les standards de l'organisation.
 
 Quelle est la maturité concernant le monitoring du runtime ?
 
 * Pas de monitoring, monitoring par le client.
-* Cas d'usage vérifiés manuellement à intervalles réguliers / Mon,itoring partiel (ou manuel), ou via reporting mail
-* Cas d'usage vérifiés automatiqu"ement à intervalles réguliers / monitoring en temps reel, via une interface web
+* Cas d'usage vérifiés manuellement à intervalles réguliers / Monitoring partiel (ou manuel), ou via reporting mail
+* Cas d'usage vérifiés automatiquement à intervalles réguliers / monitoring en temps reel, via une interface web
 * Cas d'usage et monitoring préventif (disk space, table space, network load, …) à intervalles réguliers /  Monitoring en temps réel affiché dans l'espace de développement
-* Cas d'usage et monitoring préventif en temps réel par affichage visuel / Monitoring en temps réel partagé avec le management et les stakeholders via une interface web
+* Cas d'usage et monitoring préventif en temps réel par affichage visuel / Monitoring en temps réel partagé avec le management et les parties prenantes via une interface web
 
 Dans quelle mesure le travail inter-équipe est-il encouragé ?
 
-* Surtout, personne ne touche à notre périmètre (c'est confidentiel, trop dangereux, …)
-* Le code est partagé de manière ad-hoc par demande individuelle
+* Surtout, personne ne touche à notre périmètre, c'est confidentiel, trop dangereux, …
+* Le code est partagé de manière ad hoc par demande individuelle
 * Le code est partagé avec le domaine dans lequel l'équipe évolue
-* Le code est partagé et accessible pas les autres équipes, y compris pour modification. Le code des autres équipes est accessible pour faire de même.
-* Des évenements sont régulièrement organisés pour faire participer les autres équipes à notre produit, et vice-versa
+* Le code est partagé et accessible pas les autres équipes, y compris pour modification. Le code des autres équipes est abordable pour faire de même.
+* Des évènements sont régulièrement organisés pour faire participer les autres équipes à notre produit, et vice-versa
 
 Quels sont les processus mis en place pour faciliter les échanges dev & ops ?
 
@@ -423,55 +468,59 @@ Quels sont les processus mis en place pour faciliter les échanges dev & ops ?
 Comment l'équipe entretient-elle son niveau de savoir-faire pendant le temps de travail ?
 
 * L'équipe suit les formations internes obligatoires
-* L'équipe suit les formations internes obligatoires, et certains membres se forment en dehors du travail
+* L'équipe suit les formations internes obligatoires et certains membres se forment en dehors du travail
 * L'équipe participe occasionnellement aux communautés d'experts disponibles
-* L'équipe participe régulièrment aux communautés d'experts disponibles, et/ou se forme via des katas organisés en fonction des besoins du projet, via une bibliothèque partagée, …
-* L'équipe participe voire anime régulièrment les communautés d'experts disponibles, et/ou se forme via des katas organisés en fonction des besoins du projet, via une bibliothèque partagée ET participent à la formation des autres équipes
+* L'équipe participe régulièrement aux communautés d'experts disponibles, et/ou se forme via des katas organisés en fonction des besoins du projet, via une bibliothèque partagée, …
+* L'équipe participe, voire anime régulièrement les communautés d'experts disponibles, et/ou se forme via des katas organisés en fonction des besoins du projet, via une bibliothèque partagée ET participent à la formation des autres équipes
 
 Quel est le niveau d'échange entre les dev & les ops ?
 
 * L'UPM ou la Production est informée quelques jours avant la date de la livraison applicative
-* La prodcution est correctement informée via le sprocess de cycle de vie projet / le sdevs sont correctemnt informés des pré-requis des enviornnmeents de production
-* Une fois par sprint, la production et les devs se rencontre pour échanger sur les réussites, echecs et établir de splans d'actions
-* Existence d'un poste Ops dans l'équipe de devs / Prod présente au revues de sprint
-* Post-mortems co-écrit et torts partagés / Réussites celebrées avec la prod / plans d'action partagés en cours / production présente au retrospectives de sprint
+* La production est correctement informée via les process de cycle de vie projet / les devs sont correctement informés des prérequis des environments de production.
+* Une fois par sprint, la production et les devs se rencontre pour échanger sur les réussites, échecs et établir des plans d'actions.
+* Existence d'un poste Ops dans l'équipe de devs / Prod présente aux revues de sprint
+* Post-mortems coécrits et torts partagés / Réussites célébrées avec la prod / plans d'action partagés en cours / production présente au retrospectives de sprint
 
 Le projet/ produit est-il conçu pour répondre à un besoin identifié ete sa valeur ajoutée est-elle mesurable ?
 
-* Le besoin n'a pas été rattaché à des faits ou des données chiffrées et n'a pas fait l'objet d'une phase exploratrice incluant les utilisateurs
-* Le produit réponds à une demande métiers (pas forcément argumentée)
-* Le produit réponds à une demande métier documentée, argumentée
-* Le produit réponds à une demande métier documentée et challengée via une phase exploratrice incluant des utilisateurs
-* Les besoins ou problématiques utilisateurs ont été identifiés en collaboration avec les utilisateurs, la mise en place du produit apportera de la valeur sur la durée à l'utilisateur et s'appuie sur des données factuelles et/ou chiffrées
+* Le besoin n'a pas été rattaché à des faits ou des données chiffrées et n'a pas fait l'objet d'une phase exploratrice incluant les utilisateurs.
+* Le produit répond à une demande métiers (pas forcément argumentée)
+* Le produit répond à une demande métier documentée, argumentée
+* Le produit répond à une demande métier documentée et challengée via une phase exploratrice incluant des utilisateurs
+* Les besoins ou problématiques utilisateurs ont été identifiés en collaboration avec les utilisateurs, la mise en place du produit apportera de la valeur sur la durée à l'utilisateur et s'appuie sur des données factuelles et/ou chiffrées.
 
-Les hypothèses sur la pertinence du lancement de l'application/projet/produit ont-elle été verifiées avec des utilisateurs ?
+'''
+Les hypothèses sur la pertinence du lancement de l'application/projet/produit ont-elles été verifiées avec des utilisateurs ?
 
 * Un besoin exprimé, sans hypothèse, est utilisé pour démarrer le développement du produit
-* Les premières hypothèses font foi, le produit est construit à partir de celles-ci et les utilisateurs ne verront le produito qu'une fois qu'il sera terminé et livré en production
+* Les premières hypothèses font foi, le produit est construit à partir de celles-ci et les utilisateurs ne verront le produit qu'une fois qu'il sera terminé et livré en production.
 * Une phase de MVP vient valider le coût de lancement du produit (Est-ce qu'on y arrivera techniquement)
-* Une phase de MVP/MMP (?) vient valider la pertinence de lancer le produit. Elle inclut des utilisateurs clés et son objectif est de vérifier la véracité des hypothèses à l'origine du Produit.
-* "Une phase de MVP/MMP (?) vient valider la pertinence de lancer le produit. Elle inclut des utilisateurs clés et son objectif est de vérifier la véracité des hypothèses à l'origine du Produit.
-La pertinence des besoins exprimées est révaluée régulièrement"
+* Une phase de MVP/MMP vient valider la pertinence de lancer le produit. Elle inclut des utilisateurs clés et son objectif est de vérifier la véracité des hypothèses à l'origine du Produit.
+* "Une phase de MVP/MMP vient valider la pertinence de lancer le produit. Elle inclut des utilisateurs clés et son objectif est de vérifier la véracité des hypothèses à l'origine du Produit.
+La pertinence des besoins exprimés est réévaluée régulièrement"
 
+'''
 Le concept de Backlog Produit est-il appliqué ?
 
 * Pas de vision Produit, pas de backlog, au mieux un cahier des charges
 * Un product owner, ou chef de projet définit la priorisation des tâches à réaliser
 * Un product owner, ou chef de projet définit la priorisation des tâches à réaliser, en incluant les besoins techniques (Non functional requirements)
-* Un product owner, ou chef de projet définit la priorisation des tâches à réaliser, en incluant les besoins techniques (Non functional requirements) en collaboration avec l'équipe de developement
+* Un product owner, ou chef de projet définit la priorisation des tâches à réaliser, en incluant les besoins techniques (Non functional requirements) en collaboration avec l'équipe de développement.
 
-Y'a t'il un rôle de Product Owner (PO) ou équivalent affecté au produit/application/projet ?
+'''
+Y a-t-il un rôle de Product Owner (PO) ou équivalent affecté au produit/application/projet ?
 
 * il n'y a pas de PO
 * PO, mais peu disponible
-* Un PO et/ou des représentatn (ProxyPO/BA) pour se backuper
+* Un PO et/ou des représentants (ProxyPO/BA) pour se backuper
 * Un PO unique avec un pouvoir de décision indiscuté, même à temps partiel
-* Les disponibilités du PO unique lui permette d'assurer leur fonctions et responsabilités à temps plein
+* Les disponibilités du PO unique lui permettent d'assurer leurs fonctions et responsabilités à temps plein
 
+'''
 La valeur métier est-elle une métrique de référence pour informer les décisions prises par l'équipe ?
 
-* Priorisation LAPU (last resquest), LOUPO (loudest person opinion)
-* Pas d'évaluation de la valeur métier; la priorisation suit un modèle de type HIPPO (Highest Paid Person's Opinion)
+* Priorisation LAPU (last request), LOUPO (loudest person opinion)
+* Pas d'évaluation de la valeur métier ; la priorisation suit un modèle de type HIPPO (Highest Paid Person's Opinion)
 * Une évaluation de la valeur métier est faite pour chaque demande macros des utilisateurs
 * Une évaluation de la valeur métier est faite pour chaque demande macros des utilisateurs. Elle est revue potentiellement à chaque itération.
 * La valeur métier est définie qualitativement et collaborativement avec les parties prenantes et les décisions sont facilitées par un Product Owner (PO). Elle apparaît sur chaque User Story (US). Elle peut être revue à chaque itération en fonction des informations récoltées lors de l'itération.
@@ -480,7 +529,7 @@ La valeur métier est-elle une métrique de référence pour informer les décis
 L'équipe est-elle stable ?
 
 * L'équipe est chroniquement en sous-effectif
-* Les membres de l'équipe changent  régulièremnt, de manière non anticipée
-* Léquipe est stable, le turnover est naturel (France 2018 18%)
-* Léquipe est stable, le turnover est naturel (France 2018 18%) et les changements sont  anticipés à plus d'1 mois.
-* Léquipe est stable, le turnover est raisonnable et pleinement intégré par l'équipe. (plus d1 an sans problèmes avec prise de contact avec un ancien collègue)
+* Les membres de l'équipe changent  régulièrement, de manière non anticipée
+* L'équipe est stable, le turnover est naturel (France 2018 18%)
+* L'équipe est stable, le turnover est naturel (France 2018 18%) et les changements sont  anticipés à plus d'1 mois.
+* L'équipe est stable, le turnover est raisonnable et pleinement intégré par l'équipe. (Plus d1 an sans problèmes avec prise de contact avec un ancien collègue)
