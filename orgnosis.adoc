@@ -2,6 +2,26 @@
 Joseph Verron <joseph@verron.pro>
 :toc:
 
+- Design
+- Developpement
+- Build
+- Deployment
+- Test
+- Monitoring
+- Feedback
+- Documentation
+
+
+
+- Dev Team / Squad
+- Project Manager / PO
+- Portfolio/Program Manager 
+
+
+
+
+
+
 == Gestion des bugs
 
 .Base de connaissance
