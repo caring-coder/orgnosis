@@ -64,11 +64,11 @@ La résolution des bugs connus est-elle priorisée ?
 
 La résolution des bugs potentiels (rapport d'analyse) est-elle priorisée ?
 
-* Pas d'analyses de la base de code
-* Les analyses ne sont pas particulièrement prises en compte
-* Les retours des analyses sont visibles ou présentés régulièrement
-* Des actions de remédiations aux violations constatées sont mises en place
-* Un travail n'est pas considéré comme terminé tant que des violations sont constatés dans les rapports d'analyse
+* [ ] Pas d'analyses de la base de code
+* [ ] Les analyses ne sont pas particulièrement prises en compte
+* [ ] Les retours des analyses sont visibles ou présentés régulièrement
+* [ ] Des actions de remédiations aux violations constatées sont mises en place
+* [ ] Un travail n'est pas considéré comme terminé tant que des violations sont constatés dans les rapports d'analyse
 
 == Connaissance Produit
 Quel est le degré de connaissance du produit de l'équipe ?
@@ -81,11 +81,11 @@ Quel est le degré de connaissance du produit de l'équipe ?
 
 La roadmap applicative est-elle partagée avec les contributeurs projets ?
 
-* La roadmap n'existe pas
-* La roadmap existe dans une version non validée
-* La roadmap est en place, mais n'a pas été partagée avec les contributeurs
-* La roadmap à court terme (>3 mois) est en place et a été partagée avec l'équipe
-* La roadmap à long terme >12 mois est en place, partagée et accessible
+* [ ] La roadmap n'existe pas
+* [ ] La roadmap existe dans une version non validée
+* [ ] La roadmap est en place, mais n'a pas été partagée avec les contributeurs
+* [ ] La roadmap à court terme (>3 mois) est en place et a été partagée avec l'équipe
+* [ ] La roadmap à long terme >12 mois est en place, partagée et accessible
 
 == Connaissance Organisation
 Les développeurs ont-ils connaissance du portail des développeurs ?
@@ -100,19 +100,19 @@ Les développeurs ont-ils connaissance du portail des développeurs ?
 
 Êtes-vous en mesure de définir les termes suivants : Dette technique /  Refactoring / Code Rot / Règle du boyscout ?
 
-* 0/4
-* 1/4
-* 2/4
-* 3/4
-* 4/4
+* [ ] 0/4
+* [ ] 1/4
+* [ ] 2/4
+* [ ] 3/4
+* [ ] 4/4
 
 Est-ce qu'on trouve une branche 'master' ?
 
-* Pas de SCM
-* Pas de SCM distribué
-* Pas le SCM de référence
-* Pas de trunk de référence
-* Une branche trunk ou équivalent
+* [ ] Pas de SCM
+* [ ] Pas de SCM distribué
+* [ ] Pas le SCM de référence
+* [ ] Pas de trunk de référence
+* [ ] Une branche trunk ou équivalent
 
 Quel est le nombre de branches actives sur le serveur distant de référence ?
 
@@ -400,7 +400,7 @@ Quel est le niveau de l'environnement logiciel dédié aux contributeurs du proj
 * Socle logiciel standard open source installé ou accessible (centre logiciel)
 * Socle logiciel professionnel (sous licence) installé ou accessible (centre logiciel)
 * Droits d'installation locaux ou possibilité d'homologation d'outils open source supplémentaires
-* Possibilité d'homologation d'outils professionnels (sous licence) supplémentaires
+* [ ] Possibilité d'homologation d'outils professionnels (sous licence) supplémentaires
 
 Quel est le niveau du matériel dédié ayx contributeurs du projet ?
 
@@ -415,141 +415,141 @@ Puissance processeur insuffisant, suffisant, confortable,
 Taille et quantité des écrans insuffisante, suffisante, confortable ?
 ====
 
-* < 2 sur 8
-* < 4 sur 8
-* < 6 sur 8
-* < 8 sur 8
-* 8 sur 8
+* [ ] < 2 sur 8
+* [ ] < 4 sur 8
+* [ ] < 6 sur 8
+* [ ] < 8 sur 8
+* [ ] 8 sur 8
 
 Quel est le degré d'accès documentaire technique ?
 
-* Accès à ce qui est en local sur les postes locaux
-* Et ce qui est sur le réseau interne
-* Et ce qui est sur une whitelist d'URL externes avec un process simple de mise à jour
-* Et une bibliothèque de médias de formation ou de référence, papiers ou électronique
-* Extensive, ou avec un process d'ajout simple
+* [ ] Accès à ce qui est en local sur les postes locaux
+* [ ] Et ce qui est sur le réseau interne
+* [ ] Et ce qui est sur une whitelist d'URL externes avec un process simple de mise à jour
+* [ ] Et une bibliothèque de médias de formation ou de référence, papiers ou électronique
+* [ ] Extensive, ou avec un process d'ajout simple
 
 Quel est le degré de complexité du déploiement ?
 
-* Déploiement manuel
-* Déploiement décrit dans une procédure écrite
-* Déplacement d'un livrable et execution d'un script unique d'installation
-* Déploiement continu mis en place (validation click)
-* Déploiement continu mis en place (no click)
+* [ ] Déploiement manuel
+* [ ] Déploiement décrit dans une procédure écrite
+* [ ] Déplacement d'un livrable et execution d'un script unique d'installation
+* [ ] Déploiement continu mis en place (validation click)
+* [ ] Déploiement continu mis en place (no click)
 
 Quel est la fréquence de déploiement en production ?
 
-* Moins d'une fois par an
-* Moins d'une fois par trimestre
-* < 1 fois par sprint
-* 1 fois par sprint
-* 1 par feature branch mergée/ OU plusieurs fois par sprint
+* [ ] Moins d'une fois par an
+* [ ] Moins d'une fois par trimestre
+* [ ] < 1 fois par sprint
+* [ ] 1 fois par sprint
+* [ ] 1 par feature branch mergée/ OU plusieurs fois par sprint
 
 Quel est le degré de confiance sur le rollback (retour arrière) ?
 
-* Pas de procédure de rollback
-* Procédure manuelle existante (pas testée)
-* Procédure manuelle testée régulièrement ou procédure automatisée
-* Procédure manuelle testée à chaque MEP ou procédure automatisée testée régulièrement
-* Procédure de rollback automatisée et testée à chaque MEP
+* [ ] Pas de procédure de rollback
+* [ ] Procédure manuelle existante (pas testée)
+* [ ] Procédure manuelle testée régulièrement ou procédure automatisée
+* [ ] Procédure manuelle testée à chaque MEP ou procédure automatisée testée régulièrement
+* [ ] Procédure de rollback automatisée et testée à chaque MEP
 
 Existe-t-il un leader technique dans l'équipe/projet/produit ?
 
-* Non
-* Oui, mais pas à temps plein
-* Oui, depuis le début du projet, mais pas à temps plain ou équipe de juniors autonomes sur leurs montée en compétence
-* Oui, depuis le début du projet à temps plein, il transmet ses connaissances OU équipe de seniors autonomes sur leurs montée en compétences.
-* Oui, depuis le début du projet, à temps plein, il transmet ses connaissances et fait appliquer les standards de l'organisation.
+* [ ] Non
+* [ ] Oui, mais pas à temps plein
+* [ ] Oui, depuis le début du projet, mais pas à temps plain ou équipe de juniors autonomes sur leurs montée en compétence
+* [ ] Oui, depuis le début du projet à temps plein, il transmet ses connaissances OU équipe de seniors autonomes sur leurs montée en compétences.
+* [ ] Oui, depuis le début du projet, à temps plein, il transmet ses connaissances et fait appliquer les standards de l'organisation.
 
 Quelle est la maturité concernant le monitoring du runtime ?
 
-* Pas de monitoring, monitoring par le client.
-* Cas d'usage vérifiés manuellement à intervalles réguliers / Monitoring partiel (ou manuel), ou via reporting mail
-* Cas d'usage vérifiés automatiquement à intervalles réguliers / monitoring en temps reel, via une interface web
-* Cas d'usage et monitoring préventif (disk space, table space, network load, …) à intervalles réguliers /  Monitoring en temps réel affiché dans l'espace de développement
-* Cas d'usage et monitoring préventif en temps réel par affichage visuel / Monitoring en temps réel partagé avec le management et les parties prenantes via une interface web
+* [ ] Pas de monitoring, monitoring par le client.
+* [ ] Cas d'usage vérifiés manuellement à intervalles réguliers / Monitoring partiel (ou manuel), ou via reporting mail
+* [ ] Cas d'usage vérifiés automatiquement à intervalles réguliers / monitoring en temps reel, via une interface web
+* [ ] Cas d'usage et monitoring préventif (disk space, table space, network load, …) à intervalles réguliers /  Monitoring en temps réel affiché dans l'espace de développement
+* [ ] Cas d'usage et monitoring préventif en temps réel par affichage visuel / Monitoring en temps réel partagé avec le management et les parties prenantes via une interface web
 
 Dans quelle mesure le travail inter-équipe est-il encouragé ?
 
-* Surtout, personne ne touche à notre périmètre, c'est confidentiel, trop dangereux, …
-* Le code est partagé de manière ad hoc par demande individuelle
-* Le code est partagé avec le domaine dans lequel l'équipe évolue
-* Le code est partagé et accessible pas les autres équipes, y compris pour modification. Le code des autres équipes est abordable pour faire de même.
-* Des évènements sont régulièrement organisés pour faire participer les autres équipes à notre produit, et vice-versa
+* [ ] Surtout, personne ne touche à notre périmètre, c'est confidentiel, trop dangereux, …
+* [ ] Le code est partagé de manière ad hoc par demande individuelle
+* [ ] Le code est partagé avec le domaine dans lequel l'équipe évolue
+* [ ] Le code est partagé et accessible pas les autres équipes, y compris pour modification. Le code des autres équipes est abordable pour faire de même.
+* [ ] Des évènements sont régulièrement organisés pour faire participer les autres équipes à notre produit, et vice-versa
 
 Quels sont les processus mis en place pour faciliter les échanges dev & ops ?
 
-* Pas de processus prévus
-* Outils de ticketing mis en place
-* Ticketing, téléphone, mail et messagerie instantanée
-* Espace de collaboration statique existant (repertoire partagé, ...)
-* Espace de collaboration dynamique existant (style wiki...) et messagerie instantanée d'équipe
+* [ ] Pas de processus prévus
+* [ ] Outils de ticketing mis en place
+* [ ] Ticketing, téléphone, mail et messagerie instantanée
+* [ ] Espace de collaboration statique existant (repertoire partagé, ...)
+* [ ] Espace de collaboration dynamique existant (style wiki...) et messagerie instantanée d'équipe
 
 Comment l'équipe entretient-elle son niveau de savoir-faire pendant le temps de travail ?
 
-* L'équipe suit les formations internes obligatoires
-* L'équipe suit les formations internes obligatoires et certains membres se forment en dehors du travail
-* L'équipe participe occasionnellement aux communautés d'experts disponibles
-* L'équipe participe régulièrement aux communautés d'experts disponibles, et/ou se forme via des katas organisés en fonction des besoins du projet, via une bibliothèque partagée, …
-* L'équipe participe, voire anime régulièrement les communautés d'experts disponibles, et/ou se forme via des katas organisés en fonction des besoins du projet, via une bibliothèque partagée ET participent à la formation des autres équipes
+* [ ] L'équipe suit les formations internes obligatoires
+* [ ] L'équipe suit les formations internes obligatoires et certains membres se forment en dehors du travail
+* [ ] L'équipe participe occasionnellement aux communautés d'experts disponibles
+* [ ] L'équipe participe régulièrement aux communautés d'experts disponibles, et/ou se forme via des katas organisés en fonction des besoins du projet, via une bibliothèque partagée, …
+* [ ] L'équipe participe, voire anime régulièrement les communautés d'experts disponibles, et/ou se forme via des katas organisés en fonction des besoins du projet, via une bibliothèque partagée ET participent à la formation des autres équipes
 
 Quel est le niveau d'échange entre les dev & les ops ?
 
-* L'UPM ou la Production est informée quelques jours avant la date de la livraison applicative
-* La production est correctement informée via les process de cycle de vie projet / les devs sont correctement informés des prérequis des environments de production.
-* Une fois par sprint, la production et les devs se rencontre pour échanger sur les réussites, échecs et établir des plans d'actions.
-* Existence d'un poste Ops dans l'équipe de devs / Prod présente aux revues de sprint
-* Post-mortems coécrits et torts partagés / Réussites célébrées avec la prod / plans d'action partagés en cours / production présente au retrospectives de sprint
+* [ ] L'UPM ou la Production est informée quelques jours avant la date de la livraison applicative
+* [ ] La production est correctement informée via les process de cycle de vie projet / les devs sont correctement informés des prérequis des environments de production.
+* [ ] Une fois par sprint, la production et les devs se rencontre pour échanger sur les réussites, échecs et établir des plans d'actions.
+* [ ] Existence d'un poste Ops dans l'équipe de devs / Prod présente aux revues de sprint
+* [ ] Post-mortems coécrits et torts partagés / Réussites célébrées avec la prod / plans d'action partagés en cours / production présente au retrospectives de sprint
 
 Le projet/ produit est-il conçu pour répondre à un besoin identifié ete sa valeur ajoutée est-elle mesurable ?
 
-* Le besoin n'a pas été rattaché à des faits ou des données chiffrées et n'a pas fait l'objet d'une phase exploratrice incluant les utilisateurs.
-* Le produit répond à une demande métiers (pas forcément argumentée)
-* Le produit répond à une demande métier documentée, argumentée
-* Le produit répond à une demande métier documentée et challengée via une phase exploratrice incluant des utilisateurs
-* Les besoins ou problématiques utilisateurs ont été identifiés en collaboration avec les utilisateurs, la mise en place du produit apportera de la valeur sur la durée à l'utilisateur et s'appuie sur des données factuelles et/ou chiffrées.
+* [ ] Le besoin n'a pas été rattaché à des faits ou des données chiffrées et n'a pas fait l'objet d'une phase exploratrice incluant les utilisateurs.
+* [ ] Le produit répond à une demande métiers (pas forcément argumentée)
+* [ ] Le produit répond à une demande métier documentée, argumentée
+* [ ] Le produit répond à une demande métier documentée et challengée via une phase exploratrice incluant des utilisateurs
+* [ ] Les besoins ou problématiques utilisateurs ont été identifiés en collaboration avec les utilisateurs, la mise en place du produit apportera de la valeur sur la durée à l'utilisateur et s'appuie sur des données factuelles et/ou chiffrées.
 
 '''
 Les hypothèses sur la pertinence du lancement de l'application/projet/produit ont-elles été verifiées avec des utilisateurs ?
 
-* Un besoin exprimé, sans hypothèse, est utilisé pour démarrer le développement du produit
-* Les premières hypothèses font foi, le produit est construit à partir de celles-ci et les utilisateurs ne verront le produit qu'une fois qu'il sera terminé et livré en production.
-* Une phase de MVP vient valider le coût de lancement du produit (Est-ce qu'on y arrivera techniquement)
-* Une phase de MVP/MMP vient valider la pertinence de lancer le produit. Elle inclut des utilisateurs clés et son objectif est de vérifier la véracité des hypothèses à l'origine du Produit.
-* "Une phase de MVP/MMP vient valider la pertinence de lancer le produit. Elle inclut des utilisateurs clés et son objectif est de vérifier la véracité des hypothèses à l'origine du Produit.
+* [ ] Un besoin exprimé, sans hypothèse, est utilisé pour démarrer le développement du produit
+* [ ] Les premières hypothèses font foi, le produit est construit à partir de celles-ci et les utilisateurs ne verront le produit qu'une fois qu'il sera terminé et livré en production.
+* [ ] Une phase de MVP vient valider le coût de lancement du produit (Est-ce qu'on y arrivera techniquement)
+* [ ] Une phase de MVP/MMP vient valider la pertinence de lancer le produit. Elle inclut des utilisateurs clés et son objectif est de vérifier la véracité des hypothèses à l'origine du Produit.
+* [ ] "Une phase de MVP/MMP vient valider la pertinence de lancer le produit. Elle inclut des utilisateurs clés et son objectif est de vérifier la véracité des hypothèses à l'origine du Produit.
 La pertinence des besoins exprimés est réévaluée régulièrement"
 
 '''
 Le concept de Backlog Produit est-il appliqué ?
 
-* Pas de vision Produit, pas de backlog, au mieux un cahier des charges
-* Un product owner, ou chef de projet définit la priorisation des tâches à réaliser
-* Un product owner, ou chef de projet définit la priorisation des tâches à réaliser, en incluant les besoins techniques (Non functional requirements)
-* Un product owner, ou chef de projet définit la priorisation des tâches à réaliser, en incluant les besoins techniques (Non functional requirements) en collaboration avec l'équipe de développement.
+* [ ] Pas de vision Produit, pas de backlog, au mieux un cahier des charges
+* [ ] Un product owner, ou chef de projet définit la priorisation des tâches à réaliser
+* [ ] Un product owner, ou chef de projet définit la priorisation des tâches à réaliser, en incluant les besoins techniques (Non functional requirements)
+* [ ] Un product owner, ou chef de projet définit la priorisation des tâches à réaliser, en incluant les besoins techniques (Non functional requirements) en collaboration avec l'équipe de développement.
 
 '''
 Y a-t-il un rôle de Product Owner (PO) ou équivalent affecté au produit/application/projet ?
 
-* il n'y a pas de PO
-* PO, mais peu disponible
-* Un PO et/ou des représentants (ProxyPO/BA) pour se backuper
-* Un PO unique avec un pouvoir de décision indiscuté, même à temps partiel
-* Les disponibilités du PO unique lui permettent d'assurer leurs fonctions et responsabilités à temps plein
+* [ ] il n'y a pas de PO
+* [ ] PO, mais peu disponible
+* [ ] Un PO et/ou des représentants (ProxyPO/BA) pour se backuper
+* [ ] Un PO unique avec un pouvoir de décision indiscuté, même à temps partiel
+* [ ] Les disponibilités du PO unique lui permettent d'assurer leurs fonctions et responsabilités à temps plein
 
 '''
 La valeur métier est-elle une métrique de référence pour informer les décisions prises par l'équipe ?
 
-* Priorisation LAPU (last request), LOUPO (loudest person opinion)
-* Pas d'évaluation de la valeur métier ; la priorisation suit un modèle de type HIPPO (Highest Paid Person's Opinion)
-* Une évaluation de la valeur métier est faite pour chaque demande macros des utilisateurs
-* Une évaluation de la valeur métier est faite pour chaque demande macros des utilisateurs. Elle est revue potentiellement à chaque itération.
-* La valeur métier est définie qualitativement et collaborativement avec les parties prenantes et les décisions sont facilitées par un Product Owner (PO). Elle apparaît sur chaque User Story (US). Elle peut être revue à chaque itération en fonction des informations récoltées lors de l'itération.
+* [ ] Priorisation LAPU (last request), LOUPO (loudest person opinion)
+* [ ] Pas d'évaluation de la valeur métier ; la priorisation suit un modèle de type HIPPO (Highest Paid Person's Opinion)
+* [ ] Une évaluation de la valeur métier est faite pour chaque demande macros des utilisateurs
+* [ ] Une évaluation de la valeur métier est faite pour chaque demande macros des utilisateurs. Elle est revue potentiellement à chaque itération.
+* [ ] La valeur métier est définie qualitativement et collaborativement avec les parties prenantes et les décisions sont facilitées par un Product Owner (PO). Elle apparaît sur chaque User Story (US). Elle peut être revue à chaque itération en fonction des informations récoltées lors de l'itération.
 
 '''
 L'équipe est-elle stable ?
 
-* L'équipe est chroniquement en sous-effectif
-* Les membres de l'équipe changent  régulièrement, de manière non anticipée
-* L'équipe est stable, le turnover est naturel (France 2018 18%)
-* L'équipe est stable, le turnover est naturel (France 2018 18%) et les changements sont  anticipés à plus d'1 mois.
-* L'équipe est stable, le turnover est raisonnable et pleinement intégré par l'équipe. (Plus d1 an sans problèmes avec prise de contact avec un ancien collègue)
+* [ ] L'équipe est chroniquement en sous-effectif
+* [ ] Les membres de l'équipe changent  régulièrement, de manière non anticipée
+* [ ] L'équipe est stable, le turnover est naturel (France 2018 18%)
+* [ ] L'équipe est stable, le turnover est naturel (France 2018 18%) et les changements sont  anticipés à plus d'1 mois.
+* [ ] L'équipe est stable, le turnover est raisonnable et pleinement intégré par l'équipe. (Plus d1 an sans problèmes avec prise de contact avec un ancien collègue)
